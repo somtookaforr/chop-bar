@@ -25,7 +25,7 @@
 <i class="fa fa-hands-helping"></i>
 <b>Support</b> 
 </div>
-<p>Support us by donating and signing up</p>
+<p align="center">Support us by donating and signing up</p>
 
 </div>
 </div>

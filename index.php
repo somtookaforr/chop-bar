@@ -12,10 +12,10 @@
     <div class="row maincarousel">
         <div class="col-2">
         <div class="bodyicons">
-        <a href=""><i class="fab fa-twitter-square bodyicon fa-2x"></i></a>
-        <a href=""><i class="fab fa-facebook bodyicon fa-2x"></i></a>
-        <a href=""><i class="fab fa-instagram bodyicon fa-2x"></i></a>
-        <a href=""><i class="fab fa-github bodyicon fa-2x"></i></a>
+        <a href="https://twitter.com/Okafor__Somto"><i class="fab fa-twitter-square bodyicon fa-2x"></i></a>
+        <a href="https://touch.facebook.com/somtoemmanuel.okafor?ref=bookmarks"><i class="fab fa-facebook bodyicon fa-2x"></i></a>
+        <a href="https://www.instagram.com/xsom_xto/"><i class="fab fa-instagram bodyicon fa-2x"></i></a>
+        <a href="https://github.com/Wavist"><i class="fab fa-github bodyicon fa-2x"></i></a>
         </div>
         <a href=""><i class="fa fa-users-cog footericon fa-2x"></i></a>
         </div>
@@ -30,10 +30,10 @@
         <div class="carousel-inner">
             <div class="carousel-item">
                     <div class="bodytext col-5">
-                        <p style="color: ef7b45">DIET PLANS </p> 
-                        <p>JUST FOR YOU</p></div>
+                        <p style="color: ef7b45" class="outerp">DIET PLANS </p> 
+                        <p class="innerp">JUST FOR YOU</p></div>
                         <p class="smallp">Get started on your fitness journey</p>
-                        <a href="" class="btn btn-light" style="margin-top: 5rem">Get Started</a>
+                        <a href="" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
                     <div class="col-5 imgbody">
                         <img src="assets/img/M4E7X3z80PQ.png" alt="" height="380px" width="480px">
                     </div>
@@ -42,11 +42,11 @@
 
         <div class="carousel-item active">
                 <div class="bodytext col-5">
-                    <p style="color: ef7b45">WORKOUT</p> 
-                    <p>PLANS FOR YOU</p>
+                    <p style="color: ef7b45" class="outerp">WORKOUT</p> 
+                    <p class="innerp">PLANS FOR YOU</p>
                 </div>
                     <p class="smallp">Get started on your fitness journey</p>
-                    <a href="" class="btn btn-light" style="margin-top: 5rem">Get Started</a>
+                    <a href="" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
                 <div class="col-5 imgbody">
                     <img src="assets/img/M4E7X3z80PQ (2).png" alt="" height="380px" width="480px">
                 </div>
@@ -54,11 +54,11 @@
 
             <div class="carousel-item">
                 <div class="bodytext col-5">
-                    <p style="color: ef7b45">MORE</p> 
-                    <p>JUST FOR YOU</p>
+                    <p style="color: ef7b45" class="outerp">MORE</p> 
+                    <p class="innerp">JUST FOR YOU</p>
                 </div>
                     <p class="smallp">Get started on your fitness journey</p>
-                    <a href="" class="btn btn-light" style="margin-top: 5rem">Get Started</a>
+                    <a href="" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
                 <div class="col-5 imgbody">
                     <img src="assets/img/M4E7X3z80PQ (3).png" alt="" height="380px" width="480px">
                 </div>
@@ -80,7 +80,7 @@
 
 <?php
     include_once('includes/footer.php');
-    ?>
+?>
     
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

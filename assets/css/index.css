@@ -34,9 +34,6 @@ background: rgba(69, 155, 255, 0.2);
 border-radius: 20px;
 }
 
-
-
-
 .carousel-indicators li {
     width: 10px;
     height: 10px;
@@ -49,12 +46,14 @@ border-radius: 20px;
 
 @media only screen and (max-width: 380px) {
     .col-2{left: -2.2rem;}
-    .carousel-inner{width: 30rem; margin-left: 3rem; top: -3rem;}
+    .carousel-inner{width: 16rem; margin-left: 3rem; top: -3rem;}
     .bodytext p{font-size: 20px;margin-left: 1rem;}
     .imgbody img{height:150px; width:250px;}
-    .imgbody{margin-right: 18.2rem;margin-top: -21rem;}
+    p.outerp{font-size: 30px;}
+    p.innerp{font-size: 13px;}
+    .imgbody{margin-right: 9rem;margin-top: -21rem;}
     .smallp{margin-top: 12rem;}
-    .footer{margin-right: -4rem; padding-bottom: 1rem;}
+    .footer{margin-left: -2rem; padding-bottom: 1rem; margin-right: -2rem;}
  }
 
  @media only screen and (min-width:380px) and (max-width: 430px) {
