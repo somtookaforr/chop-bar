@@ -1,0 +1,44 @@
+body{background-color: 042A2B;}
+
+div.card{
+    color: white;
+}
+
+.workone{
+   background-image: url("../img/victor-freitas-Pnm-9vBEQhk-unsplash.jpg");
+   background-size: 190%;
+}
+
+.worktwo{
+    background-image: url("../img/image.webp");
+    background-size: 130%;
+}
+
+.workthree{
+    background-image: url("../img/victor-freitas-WvDYdXDzkhs-unsplash.jpg");
+    background-size: 190%;
+}
+
+.container .card{
+   width: 22rem; height: 28rem;
+}
+
+@media only screen and (max-width: 380px) {
+    .p-2{margin-left: .3rem;}
+ }
+
+ @media only screen and (min-width:380px) and (max-width: 430px) {
+    .p-2{margin-left: 3rem;}
+ }
+
+ @media only screen and (min-width:430px) and (max-width: 768px) {
+    .p-2{margin-left: 12rem;}
+    .footer{margin-right: 0rem;}
+ }
+
+ @media only screen and (min-width:768px) and (max-width: 1024px) {
+    .p-2{margin-left: 1rem;}
+    .container .card{width: 17rem;height: 26rem;}
+    .container .row{margin-left: 3rem;}
+    .footer{margin-top: 3rem;margin-right: -7rem;}   
+ }

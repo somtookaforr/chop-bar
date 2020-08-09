@@ -1,0 +1,25 @@
+body{background-color: 042A2B;}
+
+.divcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 74rem;
+    margin: auto;
+    text-align: center;
+    /* height: 100rem; */
+  }
+  
+.usercard{
+    max-width: 14rem;
+    margin: auto;
+    text-align: center;
+    max-height: 20rem;
+}
+
+ .user{
+    border-radius: 100%;
+    
+ } 
+ 
+  
+  
+

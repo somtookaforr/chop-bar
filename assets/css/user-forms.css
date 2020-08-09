@@ -1,0 +1,91 @@
+body{
+    background-color: 042A2B;
+} 
+
+.card{width: 30rem;}
+
+.container{
+    margin-left: 23rem;
+    margin-top: 2rem;
+}
+
+.header{
+    margin-left: 12rem;
+    color: rgba(43, 43, 43, 0.781);
+}
+
+.logo{
+    margin-left: 10rem;
+}
+
+button{
+    margin-left: 11rem;
+
+}
+
+h2{
+    margin-left: 10rem;
+    margin-top: -1.5rem;
+}
+
+body{
+    margin-left: -19rem;
+    padding-top: 3rem;
+}
+
+.logo{
+    top: 7rem;
+    left: -5rem;
+}
+
+.checkoutform{margin-top: -3.6rem;}
+
+.checkout_logo{top: 10rem;}
+
+.mainlogo{padding-top: 1rem;}
+
+.loginform{padding-top: 4rem;}
+
+.navlogo{color: ffa572; font-size: 60px;}
+
+.underlogo{font-size: 60px;margin-top: -3rem; color: white;}
+
+@media only screen and (max-width: 380px) {
+    .body{overflow: hidden;}
+    .card{width: 19.5rem; margin-left: -26rem;}
+    .logo{margin-top: -9rem; left: -7rem;}
+    .navlogo{font-size: 20px;}
+    .underlogo{font-size: 20px; margin-top: -1.3rem;}
+    .mainlogo{width: 3rem;}
+    .signup_card{width: 19rem; margin-left: -25rem;}
+    .checkout_card{width: 19rem;}
+    .checkout_logo{margin-top: -13rem;left: 1rem; margin-left: 2rem;}
+ }
+
+ @media only screen and (min-width:380px) and (max-width: 430px) {
+    .body{overflow: hidden;}
+    .card{width: 19.5rem; margin-left: -28rem;}
+    .logo{margin-top: -9rem; left: -5rem;}
+    .navlogo{font-size: 20px;}
+    .underlogo{font-size: 20px; margin-top: -1.3rem;}
+    .mainlogo{width: 3rem;}
+    .signup_card{width: 23rem; margin-left: -29rem;}
+    .checkoutcard{width: 23rem; top: 5rem;}
+    .checkout_logo{margin-top: -13rem;left: 1rem; margin-left: 4rem;}
+ }
+
+ @media only screen and (min-width:430px) and (max-width: 768px) {
+    .body{overflow: hidden;}
+    .card{width: 20rem; margin-left: -12rem;}
+    .logo{margin-top: 0rem; left: -10rem;}
+    .navlogo{font-size: 20px;}
+    .underlogo{font-size: 20px; margin-top: -1.3rem;}
+    .mainlogo{width: 3rem;}
+    .signup_card{width: 24rem; margin-left: -13rem;}
+    .checkoutcard{width: 26rem; top: 5rem; margin-left: -10rem;}
+    .checkout_logo{margin-top: 7rem;left: 0rem; margin-left: 0rem;}
+ }
+
+ @media only screen and (min-width:768px) and (max-width: 1024px) {
+    
+ }

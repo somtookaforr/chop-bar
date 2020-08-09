@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+
+.logo{padding-top: .5rem;}
+
+nav.bg{background-color: whitesmoke;}
+
+.card{
+    background-color: whitesmoke;
+}
+
+.carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    border-radius: 0%;
+    background-image: url("../img/weights.jpg");
+    background-size: 150%;
+}
+
+button a{
+    text-decoration: none;
+
+    color: white;
+}
+
+.navlogo{color: ef7b45;}
+
+.underlogo{margin-top: -1.5rem; color: black;}
+
+.cartbtn{padding-top: 2rem;}
+
+.col a {text-decoration: none;}

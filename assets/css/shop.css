@@ -1,0 +1,35 @@
+body{
+    background-color:042A2B;
+}
+
+.card{
+    width: 15rem; height: 14.7rem;
+    background-image: url("../img/weights.jpg");
+    background-size: 150%;
+}
+
+ul .nav-item{
+    color: rgb(247, 158, 43);
+}
+
+.col-3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.bag-icon{color: ef7b45;}
+
+@media only screen and (max-width: 380px) {
+    .container .card{width: 4.5rem; height:9rem ;}
+    div .p-2{font-size: x-small;}
+ }
+
+ @media only screen and (min-width:380px) and (max-width: 430px) {
+    .container .card{width: 5rem; height:9rem ;}
+    div .p-2{font-size: x-small;}
+ }
+
+ @media only screen and (min-width:430px) and (max-width: 768px) {
+    .container .card{width: 10rem; height:10rem ;}
+    div .p-2{font-size: x-small;}
+ }
