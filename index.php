@@ -33,7 +33,7 @@
                         <p style="color: ef7b45" class="outerp">DIET PLANS </p> 
                         <p class="innerp">JUST FOR YOU</p></div>
                         <p class="smallp">Get started on your fitness journey</p>
-                        <a href="" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
+                        <a href="workout.php" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
                     <div class="col-5 imgbody">
                         <img src="assets/img/M4E7X3z80PQ.png" alt="" height="380px" width="480px">
                     </div>
@@ -46,7 +46,7 @@
                     <p class="innerp">PLANS FOR YOU</p>
                 </div>
                     <p class="smallp">Get started on your fitness journey</p>
-                    <a href="" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
+                    <a href="workout.php" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
                 <div class="col-5 imgbody">
                     <img src="assets/img/M4E7X3z80PQ (2).png" alt="" height="380px" width="480px">
                 </div>
@@ -58,7 +58,7 @@
                     <p class="innerp">JUST FOR YOU</p>
                 </div>
                     <p class="smallp">Get started on your fitness journey</p>
-                    <a href="" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
+                    <a href="workout.php" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
                 <div class="col-5 imgbody">
                     <img src="assets/img/M4E7X3z80PQ (3).png" alt="" height="380px" width="480px">
                 </div>

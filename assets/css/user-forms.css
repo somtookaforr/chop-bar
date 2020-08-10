@@ -51,31 +51,29 @@ body{
 .underlogo{font-size: 60px;margin-top: -3rem; color: white;}
 
 @media only screen and (max-width: 380px) {
-    .body{overflow: hidden;}
-    .card{width: 19.5rem; margin-left: -26rem;}
-    .logo{margin-top: -9rem; left: -7rem;}
+    .card{width: 20.5rem; margin-left: -29.7rem;}
+    .logo{margin-top: -10rem; left: -7rem;}
+    .logincon{padding-top: 2rem;}
     .navlogo{font-size: 20px;}
     .underlogo{font-size: 20px; margin-top: -1.3rem;}
     .mainlogo{width: 3rem;}
-    .signup_card{width: 19rem; margin-left: -25rem;}
-    .checkout_card{width: 19rem;}
+    .signup_card{width: 20.5rem; margin-left: -29.7rem; margin-top: 4rem;}
+    .checkoutcard{width: 19rem; left: 5rem; margin-top: 8rem;}
     .checkout_logo{margin-top: -13rem;left: 1rem; margin-left: 2rem;}
  }
 
  @media only screen and (min-width:380px) and (max-width: 430px) {
-    .body{overflow: hidden;}
-    .card{width: 19.5rem; margin-left: -28rem;}
+    .card{width: 23rem; margin-left: -31rem;}
     .logo{margin-top: -9rem; left: -5rem;}
     .navlogo{font-size: 20px;}
     .underlogo{font-size: 20px; margin-top: -1.3rem;}
     .mainlogo{width: 3rem;}
-    .signup_card{width: 23rem; margin-left: -29rem;}
+    .signup_card{width: 23rem; margin-left: -31rem;top: 5rem; }
     .checkoutcard{width: 23rem; top: 5rem;}
     .checkout_logo{margin-top: -13rem;left: 1rem; margin-left: 4rem;}
  }
 
  @media only screen and (min-width:430px) and (max-width: 768px) {
-    .body{overflow: hidden;}
     .card{width: 20rem; margin-left: -12rem;}
     .logo{margin-top: 0rem; left: -10rem;}
     .navlogo{font-size: 20px;}

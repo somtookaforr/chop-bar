@@ -46,7 +46,7 @@ border-radius: 20px;
 
 @media only screen and (max-width: 380px) {
     .col-2{left: -2.2rem;}
-    .carousel-inner{width: 16rem; margin-left: 3rem; top: -3rem;}
+    .carousel-inner{width: 16rem; margin-left: 3rem; top: -1rem;}
     .bodytext p{font-size: 20px;margin-left: 1rem;}
     .imgbody img{height:150px; width:250px;}
     p.outerp{font-size: 30px;}
@@ -59,18 +59,18 @@ border-radius: 20px;
  @media only screen and (min-width:380px) and (max-width: 430px) {
     img.bodyicon{height: 3rem;}
     img.footericon{height: 2rem;}
-    .carousel-inner{width: 30rem; margin-left: 3rem; top: -3rem;}
+    .carousel-inner{width: 20rem; margin-left: 3rem; top: -1rem;}
     .bodytext p{font-size: 20px;margin-left: 1rem;}
-    .imgbody img{height:150px; width:250px;}
-    .imgbody{margin-right: 18.2rem;margin-top: -21rem;}
-    .smallp{margin-top: 12rem;}
+    .imgbody img{height:250px; width:300px; margin-left: 7rem;}
+    .imgbody{margin-right: 18.2rem;margin-top: -26rem;}
+    .smallp{margin-top: 17rem;}
     .footer{margin-right: -2.5rem;margin-left: -2.6rem; margin-top: 4rem;}
  }
 
  @media only screen and (min-width:430px) and (max-width: 768px) {
     img.bodyicon{height: 3rem;}
     img.footericon{height: 2rem;}
-    .carousel-inner{width: 50rem; margin-left: 3rem; top: -3rem;}
+    .carousel-inner{width: 50rem; margin-left: 3rem; top: -2rem;}
     .bodytext p{font-size: 50px;margin-left: 1rem;}
     .imgbody img{height:220px; width:320px;}
     .imgbody{margin-right: 12.5rem;margin-top: -20rem;}

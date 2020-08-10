@@ -1,5 +1,5 @@
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/user-forms.css">
 
@@ -8,7 +8,7 @@ require_once "includes/signup_db.php";
 ?>
 
 <body class="signup" style="overflow: hidden;">
-    <div class="container">
+    <div class="container signupcon">
         <div class="row">
 
             <div class="col logo">
@@ -40,7 +40,7 @@ require_once "includes/signup_db.php";
 
             <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
                         <label>Confirm Password</label>
-                        <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
+                        <input type="password" name="confirm_password" class="form-control" placeholder="Confirm Password" value="<?php echo $confirm_password; ?>">
                         <span class="help-block"><?php echo $confirm_password_err; ?></span>
                     </div>
 

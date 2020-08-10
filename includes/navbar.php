@@ -50,12 +50,6 @@ $activePa = basename($_SERVER['PHP_SELF'], ".php");
         echo '<li><a href="logout.php" class="nav-link btn btn-warning shopbtn" style="color: white">Log Out</a></li>';
         }?>       
       </li>
-      <!-- <li class="nav-item">
-        <?php
-        if(!isset($_SESSION["loggedin"])){
-        echo '<li><a href="login.php" class="nav-link btn btn-warning shopbtn"  style="margin-left: -10rem;color: white;">Log In</a></li>';
-        }?>       
-      </li> -->
       <li class="nav-item">
         <?php  
         if(!isset($_SESSION["loggedin"])){
