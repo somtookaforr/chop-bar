@@ -1,6 +1,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/user-forms.css">
+<link rel="icon" href="assets/img/mainlogo.png">
+
 <body class="login">
 <?php include_once('includes/login_db.php') ?>
 <body class="body" style="overflow: hidden;">
