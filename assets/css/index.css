@@ -46,7 +46,9 @@ border-radius: 20px;
 
 @media only screen and (max-width: 380px) {
     .col-2{left: -2.2rem;}
-    .carousel-inner{width: 16rem; margin-left: 3rem; top: -1rem;}
+    .bodyicons{margin-left: -7.3rem;}
+    .carousel-control-prev{left: 3rem;}
+    .carousel-inner{width: 16rem; margin-left: 2rem; top: -1rem;}
     .bodytext p{font-size: 20px;margin-left: 1rem;}
     .imgbody img{height:150px; width:250px;}
     p.outerp{font-size: 30px;}
