@@ -1,2 +1,3 @@
 # chop-bar
-A fitness web app
+A fitness web app made entirely with PHP
+
