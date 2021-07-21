@@ -1,6 +1,5 @@
-
 <?php
-require_once "includes/config.php";
+require_once "db/config.php";
  
 $product_name = "Danami Throne Of Grace Printed Hoodie- Light Grey";
 $product_type = "clothing";
@@ -21,8 +20,6 @@ $product_name_err = "";
     <div class="form-group">
     <input type="hidden" name="price" value="">
     </div>
-    <!-- <td><input type="hidden" name="price" value="'.$value.'"/>'.$value.'</td> -->
-
 </form>
 
 
@@ -57,5 +54,3 @@ if(isset($_POST["submit"]))
 }
 
 ?>
-
-

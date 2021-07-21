@@ -4,67 +4,18 @@
 <link rel="icon" href="assets/img/mainlogo.png">
 
 <?php
-include_once('includes/navbar.php');
-?>
-
-<?php
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
-    exit;
-}
-?> 
-    <!-- <div class="page-header">
-        <h3>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to ChopBar.</h3>
-    </div> -->
-
-<br>
+    include_once('includes/navbar.php');
+        
+    if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+        header("location: login.php");
+        exit;
+    }
+    ?> 
 
 <body>
 
-<div class="container p-2">
-
+<div class="container p-2 mt-5" style="margin-bottom: -3rem">
     <div class="row shoprow">
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body two">
-     <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true" href=""></i>
-    </div>
-    <div class="p-2"><b>Blue Desk Lamp</b> <p class="price d-flex align-items-center">₦50,000</p></div>
-    </div></a>
-    </div>
-
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body three">
-     <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2"><b>Black Chair</b> <p class="price d-flex align-items-center">₦50,000</p></div>
-    </div></a>
-    </div>
-
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body four">
-     <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2"> <b>White Sofa</b> <p class="price d-flex align-items-center">₦50,000</p></div>
-    </div></a>
-    </div>
-
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body eleven">
-      <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2"><b>Combo Shelf</b> <p class="price d-flex align-items-center">₦240,000</p></div>
-    </div></a>
-    </div>
-<div class="w-100"></div>
-        <br><br><br>
     <div class="col-3">
     <a href="products.php">
     <div class="card" >
@@ -136,58 +87,58 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </div></a>
     </div>
 
-  <div class="col-3">
-  <a href="products.php">
-  <div class="card" >
-  <div class="card-body thirteen">
+    <div class="col-3">
+    <a href="products.php">
+    <div class="card" >
+    <div class="card-body thirteen">
+      <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
+    </div>
+    <div class="p-2"><b>Bed</b> <p class="price d-flex align-items-center">₦400,000</p></div>
+    </div></a>
+    </div>
+<div class="w-100"></div>
+    <br><br><br>
+    <div class="col-3">
+    <a href="products.php">
+    <div class="card" >
+    <div class="card-body five">
     <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-  </div>
-  <div class="p-2"><b>Bed</b> <p class="price d-flex align-items-center">₦400,000</p></div>
-  </div></a>
-  </div>
-  <div class="w-100"></div>
-  <br><br><br>
-<div class="col-3">
-<a href="products.php">
-<div class="card" >
-<div class="card-body five">
-<i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-</div>
-<div class="p-2"> <b>Crystal Lamp</b> <p class="price d-flex align-items-center">₦90,000</p></div>
-</div></a>
-</div>
+    </div>
+    <div class="p-2"> <b>Crystal Lamp</b> <p class="price d-flex align-items-center">₦90,000</p></div>
+    </div></a>
+    </div>
 
-<div class="col-3">
-<a href="products.php">
-<div class="card" >
-<div class="card-body six">
-<i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-</div>
-<div class="p-2"> <b>Senator Bed</b> <p class="price d-flex align-items-center">₦350,000</p></div>
-</div></a>
-</div>
+    <div class="col-3">
+    <a href="products.php">
+    <div class="card" >
+    <div class="card-body six">
+    <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
+    </div>
+    <div class="p-2"> <b>Senator Bed</b> <p class="price d-flex align-items-center">₦350,000</p></div>
+    </div></a>
+    </div>
 
-<div class="col-3">
-<a href="products.php">
-  <div class="card" >
-<div class="card-body seven">
-<i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-</div>
-<div class="p-2"> <b>White Lamp</b> <p class="price d-flex align-items-center">₦90,000</p></div>
-</div></a>
-</div>
+    <div class="col-3">
+    <a href="products.php">
+      <div class="card" >
+    <div class="card-body seven">
+    <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
+    </div>
+    <div class="p-2"> <b>White Lamp</b> <p class="price d-flex align-items-center">₦90,000</p></div>
+    </div></a>
+    </div>
 
-<div class="col-3">
-<a href="products.php">
-<div class="card" >
-<div class="card-body fourteen">
-<i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-</div>
-<div class="p-2"><b>Wire Frame Decor</b> <p class="price d-flex align-items-center">₦80,000</p></div>
-</div></a>
-</div>
+    <div class="col-3">
+    <a href="products.php">
+    <div class="card" >
+    <div class="card-body fourteen">
+    <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
+    </div>
+    <div class="p-2"><b>Wire Frame Decor</b> <p class="price d-flex align-items-center">₦80,000</p></div>
+    </div></a>
+    </div>
 
-</div></div>
+  </div></div>
 
 <br>
 </body>

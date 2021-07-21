@@ -6,12 +6,18 @@
     <?php
     include_once('includes/navbar.php');
     ?>
+    
+    <?php
+    if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+    }
+    ?>  
 
  <body style="overflow-x: hidden;">   
 <br>
     <div class="text-center">
-        <h5 class='text-white'>DIET TIPS</h5>
-        
+        <h5>DIET TIPS</h5>  
     </div>   
 
 

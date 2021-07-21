@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="assets/css/index.css">
 <link rel="icon" href="assets/img/mainlogo.png">
 <title>Chop Bar</title>
+
     <?php
     include_once('includes/navbar.php');
     ?>
@@ -11,71 +12,76 @@
 <body style="overflow-x: hidden">    
     <div class="row maincarousel">
         <div class="col-2">
-        <div class="bodyicons">
-        <a href="https://twitter.com/Okafor__Somto"><i class="fab fa-twitter-square bodyicon fa-2x"></i></a>
-        <a href="https://touch.facebook.com/somtoemmanuel.okafor?ref=bookmarks"><i class="fab fa-facebook bodyicon fa-2x"></i></a>
-        <a href="https://www.instagram.com/xsom_xto/"><i class="fab fa-instagram bodyicon fa-2x"></i></a>
-        <a href="https://github.com/Wavist"><i class="fab fa-github bodyicon fa-2x"></i></a>
-        </div>
-        <a href=""><i class="fa fa-users-cog footericon fa-2x"></i></a>
+            <i class="fa fa-user footericon fa-2x"></i>
+            <br>
+               <b class="mt-1 card text-light bg-dark" style="margin-left: 1rem; margin-right: 3rem">
+               <?php
+                if(isset($_SESSION["loggedin"])){
+                echo htmlspecialchars($_SESSION["username"]);
+                }
+                ?> </b> 
+            <div class="bodyicons">
+            <a href="https://twitter.com/Okafor__Somto"><i class="fab fa-twitter-square bodyicon fa-2x"></i></a>
+            <a href="https://touch.facebook.com/somtoemmanuel.okafor?ref=bookmarks"><i class="fab fa-facebook bodyicon fa-2x"></i></a>
+            <a href="https://www.instagram.com/xsom_xto/"><i class="fab fa-instagram bodyicon fa-2x"></i></a>
+            <a href="https://github.com/Wavist"><i class="fab fa-github bodyicon fa-2x"></i></a>
+            </div>
         </div>
         
-            <div class="col-10">
+        <div class="col-10">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                        <div class="bodytext col-5">
+                            <p style="color: ef7b45" class="outerp">DIET PLANS </p> 
+                            <p class="innerp">JUST FOR YOU</p></div>
+                            <p class="smallp">Get started on your fitness journey</p>
+                            <a href="workout.php" class="btn btn-light carouselbtn">Lets Go!</a>
+                        <div class="col-5 imgbody">
+                            <img src="assets/img/M4E7X3z80PQ.png" alt="" height="380px" width="480px">
+                        </div>
+                </div>
+
+
+            <div class="carousel-item active">
                     <div class="bodytext col-5">
-                        <p style="color: ef7b45" class="outerp">DIET PLANS </p> 
-                        <p class="innerp">JUST FOR YOU</p></div>
-                        <p class="smallp">Get started on your fitness journey</p>
-                        <a href="workout.php" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
-                    <div class="col-5 imgbody">
-                        <img src="assets/img/M4E7X3z80PQ.png" alt="" height="380px" width="480px">
+                        <p style="color: ef7b45" class="outerp">WORKOUT</p> 
+                        <p class="innerp">PLANS FOR YOU</p>
                     </div>
-            </div>
+                        <p class="smallp">Get started on your fitness journey</p>
+                        <a href="workout.php" class="btn btn-light carouselbtn">Lets Go!</a>
+                    <div class="col-5 imgbody">
+                        <img src="assets/img/M4E7X3z80PQ (2).png" alt="" height="380px" width="480px">
+                    </div>
+                </div>
 
-
-        <div class="carousel-item active">
-                <div class="bodytext col-5">
-                    <p style="color: ef7b45" class="outerp">WORKOUT</p> 
-                    <p class="innerp">PLANS FOR YOU</p>
+                <div class="carousel-item">
+                    <div class="bodytext col-5">
+                        <p style="color: ef7b45" class="outerp">MORE</p> 
+                        <p class="innerp">JUST FOR YOU</p>
+                    </div>
+                        <p class="smallp">Get started on your fitness journey</p>
+                        <a href="workout.php" class="btn btn-light carouselbtn">Lets Go!</a>
+                    <div class="col-5 imgbody">
+                        <img src="assets/img/M4E7X3z80PQ (3).png" alt="" height="380px" width="480px">
+                    </div>
                 </div>
-                    <p class="smallp">Get started on your fitness journey</p>
-                    <a href="workout.php" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
-                <div class="col-5 imgbody">
-                    <img src="assets/img/M4E7X3z80PQ (2).png" alt="" height="380px" width="480px">
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <div class="bodytext col-5">
-                    <p style="color: ef7b45" class="outerp">MORE</p> 
-                    <p class="innerp">JUST FOR YOU</p>
-                </div>
-                    <p class="smallp">Get started on your fitness journey</p>
-                    <a href="workout.php" class="btn btn-light" style="margin-top: 5rem; width: 15rem;">Get Started</a>
-                <div class="col-5 imgbody">
-                    <img src="assets/img/M4E7X3z80PQ (3).png" alt="" height="380px" width="480px">
-                </div>
-            </div>
         </div>
-            
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-            <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-            <span class="sr-only">Next</span>
-            </a>
+                
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <span class="sr-only">Next</span>
+                </a>
     </div>
-
-        <hr class="hr">
 </body>
 
 <?php

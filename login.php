@@ -4,7 +4,7 @@
 <link rel="icon" href="assets/img/mainlogo.png">
 
 <body class="login">
-<?php include_once('includes/login_db.php') ?>
+<?php include_once('db/login_db.php') ?>
 <body class="body" style="overflow: hidden;">
         
 <div class="container logincon">
@@ -23,19 +23,19 @@
         <div class="card">
         <div class="card-body">
 
-        <form method="post" action="<?php $_PHP_SELF ?>">
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-        <label for="exampleInputEmail1">Username</label>
-        <input name="username" type="text" class="form-control" placeholder="Username" value="<?php echo $username; ?>">
-        <span class="help-block"><?php echo $username_err; ?></span>
+        <label for="exampleInputEmail1">Email</label>
+        <input name="username" type="text" class="form-control" placeholder="Email" value="<?php echo $username; ?>">
+        <span class="help-block text-danger"><?php echo $username_err; ?></span>
         </div>
         <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
         <label for="exampleInputPassword1">Password</label>
         <input name="password" type="password" class="form-control" placeholder="Password">
-        <span class="help-block"><?php echo $password_err; ?></span>
+        <span class="help-block text-danger"><?php echo $password_err; ?></span>
         </div>
         <div class="form-group" align="center">
-        <input type="submit" class="btn btn-warning" value="Login">     
+        <input type="submit" class="btn" style="background-color: #EF7B45; color: white" value="Login">     
         <a href="index.php" class="btn btn-dark">Cancel</a>
         </div>
         <p>Don't have an account? <a href="signup.php">Sign up now</a>.</p>

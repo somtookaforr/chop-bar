@@ -4,7 +4,7 @@
 
 $id = $_GET['id'];
 //Connect DB
-include_once('includes/config.php');
+include_once('db/config.php');
 
 // sql to delete a record
 $sql = "DELETE FROM cart WHERE id = $id"; 

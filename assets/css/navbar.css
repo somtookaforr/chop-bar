@@ -1,13 +1,16 @@
 /* ul.navbar-nav{padding-top: 1rem;} */
+.navbar{
+    background-color: black;
+}
 
 ul{margin-left: 5rem;}
 
-li.signins{padding-left: 16rem;}
+li.signins{padding-left: 6rem;}
 
-li.nav-item{padding-left: 1rem; font-size: 20px;}
+li.nav-item{padding-left: 2.5rem; font-size: 20px;}
 
 .shopbtn{
-    width: 198px;
+    width: 120px;
     background: rgba(69, 155, 255, 0.2);
     border-radius: 20px;
 }

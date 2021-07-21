@@ -2,13 +2,10 @@
 <link rel="stylesheet" href="assets/css/navbar.css">
 <?php
 $activePage = basename($_SERVER['PHP_SELF'], ".php");
-$activePag = basename($_SERVER['PHP_SELF'], ".php");
-$activePa = basename($_SERVER['PHP_SELF'], ".php");
 ?>
 
 
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-transparent" style="color:red;font-size:20px;">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="index.php">
    <div style="display:inline-block;vertical-align:top;margin-top: 1rem;">
      <img src="assets/img/mainlogoo.png" alt="logo" width="50rem" class="logo"><br>
@@ -24,6 +21,9 @@ $activePa = basename($_SERVER['PHP_SELF'], ".php");
     <ul class="navbar-nav mr-auto">
       <li class="nav-item <?= ($activePage == 'index') ? 'active':''; ?>">
         <a class="nav-link" href="index.php">Home</a>
+      </li>
+      <li class="nav-item <?= ($activePage == 'log') ? 'active':''; ?>">
+        <a class="nav-link" href="log.php">Log</a>
       </li>
       <li class="nav-item <?= ($activePage == 'shop') ? 'active':''; ?>">
         <a class="nav-link" href="shop.php">Shop</a>
@@ -42,6 +42,22 @@ $activePa = basename($_SERVER['PHP_SELF'], ".php");
           <a class="dropdown-item" href="motivation.php">Motivation</a>
         </div>
       </li>
+      <li class="nav-item">
+      <h4 class="mt-2">
+          <span style="color:white">
+            <a href="cart.php" class="fa fa-shopping-cart" style="color: #EF7B45";></a>
+            <!-- Counting rows in DB -->
+              <?php 
+            include_once('db/config.php');
+            if($records = mysqli_query($link,"SELECT * FROM cart"))
+            {
+                $rowcount = mysqli_num_rows($records);
+                printf("%d",$rowcount);
+            }
+              ?>
+          </span>
+        </h4>
+      </li>  
       <li class="signins">
       <li class="nav-item">
         <?php

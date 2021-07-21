@@ -7,15 +7,18 @@
     include_once('includes/navbar.php');
     ?>
 
-<body>
+    <?php
+    if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+        header("location: login.php");
+        exit;
+    }
+    ?> 
 
+<body style="overflow-x: hidden">
     <section class="">
-    <!-- <div class="row no-gutters"> -->
-    <!-- <div class="w-100"></div> -->
-
 <br>
 <div class="text-center">
-    <h5 class='text-white'>MOTIVATION</h5>
+    <h5>MOTIVATION</h5>
 </div>   
 
 <br>
