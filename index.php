@@ -6,7 +6,7 @@
 <title>Chop Bar</title>
 
     <?php
-    include_once('includes/navbar.php');
+    include_once('includes/indexNavbar.php');
     ?>
 
 <body style="overflow-x: hidden">    
@@ -14,12 +14,12 @@
         <div class="col-2">
             <i class="fa fa-user footericon fa-2x"></i>
             <br>
-               <b class="mt-1 card text-light bg-dark" style="margin-left: 1rem; margin-right: 3rem">
+               <!-- <b class="mt-1 card text-light bg-dark" style="margin-left: 1rem; margin-right: 3rem">
                <?php
                 if(isset($_SESSION["loggedin"])){
                 echo htmlspecialchars($_SESSION["username"]);
                 }
-                ?> </b> 
+                ?> </b>  -->
             <div class="bodyicons">
             <a href="https://twitter.com/Okafor__Somto"><i class="fab fa-twitter-square bodyicon fa-2x"></i></a>
             <a href="https://touch.facebook.com/somtoemmanuel.okafor?ref=bookmarks"><i class="fab fa-facebook bodyicon fa-2x"></i></a>
