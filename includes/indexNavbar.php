@@ -43,12 +43,12 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
         </div>
       </li>
       <li class="nav-item">
+        <h4 class="mt-2">
         <?php
         include_once('db/config.php');
         session_start();
         if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-        echo '<li><h4><a href="cart.php" class="fa fa-shopping-cart mt-2" style="color: #EF7B45";></a></h4>
-        </li>';
+        echo '<a href="cart.php" class="fa fa-shopping-cart pr-1" style="color: #EF7B45";></a>';
 
         if($records = mysqli_query($link,"SELECT * FROM cart"))
             {
@@ -56,7 +56,8 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
                 printf("%d",$rowcount);
             }
         }
-        ?>       
+        ?> 
+        </h4>      
       </li>
       <li class="signins">
       <li class="nav-item">
