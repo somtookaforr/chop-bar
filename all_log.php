@@ -15,14 +15,14 @@
 <body>
    <div class="container">
        <h2 align="center" class="mt-5">All Logs</h2>
-       <table class='mt-3 table table-striped table-light'>
+       <table class='mt-3 table table-striped table-light table-responsive'>
             <thead>
                 <tr>
                 <th scope='col'>#</th>
                 <th scope='col'>Exercise</th>
                 <th scope='col'>Sets</th>
                 <th scope='col'>Reps</th>
-                <th scope='col'>Log Time</th>
+                <th scope='col'>Time</th>
                 <th scope='col'></th>
                 </tr>
                 </thead>
