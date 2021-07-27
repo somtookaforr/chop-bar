@@ -6,4 +6,23 @@ form{
     margin-top: 4rem;
     padding: 3rem 3rem 3rem 3rem;
 }
+
+.logbtn{
+    background-color: #EF7B45;
+    color: white;
+    padding: 0 2.7rem 0 2.7rem;
+}
  
+.viewlogBtn{
+    padding: 0 1.4rem 0 1.4rem;
+}
+ 
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+    .logbtn{
+        padding: 0 2rem 0 2rem;
+    }
+     
+    .viewlogBtn{
+        padding: 0 .5rem 0 .5rem;
+    }
+}

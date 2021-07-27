@@ -14,7 +14,7 @@
     }
     ?> 
 
-<body style="overflow-x: hidden">
+<body>
     <section class="">
 <br>
 <div class="text-center">

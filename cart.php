@@ -15,7 +15,7 @@
 
 
 <div class="container" style="margin-bottom: -3rem;">
-<table class="table table-borderless table-striped mt-2">
+<table class="table table-borderless table-striped mt-2 table-responsive w-100 d-block d-md-table">
   <thead>
     <tr>
       <th scope="col">#</th>

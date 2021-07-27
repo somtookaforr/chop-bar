@@ -20,16 +20,16 @@ ul .nav-item{
 .bag-icon{color: ef7b45;}
 
 @media only screen and (max-width: 380px) {
-    .container .card{width: 4.5rem; height:9rem ;}
-    div .p-2{font-size: x-small;}
+    .container .card{width: 4rem; height:9rem ;}
+    div .padding{font-size: x-small;}
  }
 
  @media only screen and (min-width:380px) and (max-width: 430px) {
     .container .card{width: 5rem; height:9rem ;}
-    div .p-2{font-size: x-small;}
+    div .padding{font-size: x-small;}
  }
 
  @media only screen and (min-width:430px) and (max-width: 768px) {
     .container .card{width: 10rem; height:10rem ;}
-    div .p-2{font-size: x-small;}
+    div .padding{font-size: x-small;}
  }

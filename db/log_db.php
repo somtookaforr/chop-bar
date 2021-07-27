@@ -3,7 +3,7 @@ require_once "db/config.php";
  
 
 if(!mysqli_select_db($link,'fitness')){
-    echo 'Not Selected';
+    echo '';
 }
 
 $exercise = isset($_POST['exercise']) ? $_POST['exercise'] : '';

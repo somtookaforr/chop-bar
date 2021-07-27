@@ -16,7 +16,8 @@
         <div>
         <i class="fa fa-address-book"></i>
         <b>Contact</b>  
-        <p><i>E-mail:</i> sommy.okafor@yahoo.com</p>
+        <p><i>Phone: </i> 08108852949</p>
+        <p><i>E-mail: </i> sommy.okafor@yahoo.com</p>
         </div>
         </div>
 

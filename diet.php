@@ -14,14 +14,14 @@
     }
     ?>  
 
- <body style="overflow-x: hidden;">   
+ <body>   
 <br>
     <div class="text-center">
         <h5>DIET TIPS</h5>  
     </div>   
 
 
-    <div class="container p-2">
+    <div class="container">
         <div class="row">
             <div class="col">
             <div class="card">

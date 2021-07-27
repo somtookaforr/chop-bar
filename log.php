@@ -60,8 +60,8 @@
                 <input type="number" name="reps" required class="form-control">
             </div>
 
-            <input type="submit" name="submit" class="btn mt-3 px-5 py-2" style="background-color: #EF7B45; color: white" value="Log">
-            <a href="all_log.php" class=" mt-3 py-2 px-4 mx-2 btn btn-dark border">View Logs</a>
+            <input type="submit" name="submit" class="logbtn btn mt-3 py-2" value="Log">
+            <a href="all_log.php" class="viewlogBtn mt-3 py-2 mx-1 btn btn-dark border">View Logs</a>
        </form>
    </div>
 </body>
