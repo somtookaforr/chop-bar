@@ -17,10 +17,6 @@ form{
     padding: 0 1.4rem 0 1.4rem;
 }
  
-.table-responsive .table {
-    max-width: none;
-}
-
 @media only screen and (min-width: 300px) and (max-width: 375px) {
     .logbtn{
         padding: 0 2rem 0 2rem;

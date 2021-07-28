@@ -3,7 +3,3 @@ body{
  }
 
 .footbtn{padding-bottom: 2rem;}
-
-.table-responsive .table {
-    max-width: none;
-}
