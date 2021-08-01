@@ -14,8 +14,8 @@
 ?> 
 
 
-<div class="container" style="margin-bottom: -3rem;">
-<table class="table table-borderless table-striped mt-2 table-responsive">
+<div class="container table-responsive" style="margin-bottom: -3rem;">
+<table class="table table-borderless table-striped mt-2">
   <thead>
     <tr>
       <th scope="col">#</th>
