@@ -103,3 +103,7 @@ div.row.maincarousel{
     .footer{margin: 2rem -8rem 0rem -10rem;}
     .footericon{margin-top: 13rem;}
  }
+
+ @media only screen and (min-width: 1240px) and (max-width: 1440px) {
+   .footer{margin: 2rem -8rem 0rem -14rem;}
+}
