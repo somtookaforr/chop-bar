@@ -37,7 +37,8 @@
                            echo "<td>".$data['exercise']."</td>";
                            echo "<td>".$data['setss']."</td>";
                            echo "<td>".$data['reps']."</td>";
-                           echo "<td>".$data['created_at']."</td>";
+                           echo "<td><mark class='text-danger'>".$data['created_at']."</mark>
+                           </td>";
                            echo "<td><a class='btn btn-danger' href='deleteLog.php?id=".$data['id']."'>Delete</a></td>"; 
                            echo "</tr>";
                 }

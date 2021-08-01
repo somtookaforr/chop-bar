@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <p class="text-center">Copyright 2020. All Rights Reserved</p><br>
+    <p class="text-center">&#169; 2020. Website developed by <b style="color: #EF7B45">Somtochukwu Emmanuel Okafor. </b>All Rights Reserved</p><br>
   </section>
 </center>
 
