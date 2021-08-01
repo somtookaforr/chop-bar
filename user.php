@@ -6,7 +6,12 @@
 <title>Chop Bar</title>
 
 <?php include_once('includes/navbar.php');?>
-
+<?php
+    if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+        header("location: login.php");
+        exit;
+    }
+    ?> 
 <body>    
   
 <div class="container">
