@@ -15,7 +15,7 @@
 <body>
    <div class="container">
        <h2 align="center" class="mt-5">All Logs</h2>
-       <table class='mt-3 table table-striped table-light table-responsive'>
+       <table class='mt-3 table table-striped table-responsive'>
             <thead>
                 <tr>
                 <th scope='col'>#</th>

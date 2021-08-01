@@ -18,7 +18,7 @@
     <section class="">
 <br>
 <div class="text-center">
-    <h5>MOTIVATION</h5>
+    <h5>MOTIVATION</h4>
 </div>   
 
 <br>
@@ -26,26 +26,50 @@
 <br>
 <div class="p-3">
     <img src="assets/img/unnamed.jpg" alt="John" width="25%" class="user">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h4 class="card-title mt-3">- Arnold Schwarzenegger</h4>
+    <h6 class="card-text mb-5">
+        “The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.”
+    </h6>
 </div>
 
 <div class="p-3">
     <img src="assets/img/unnamed.jpg" alt="John" width="25%" class="user">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h4 class="card-title mt-3">– Vince Lombardi</h4>
+    <h6 class="card-text mb-5">
+        ¨Most people fail, not because of lack of desire, but, because of lack of commitment.¨ 
+    </h6>
 </div>
 
 <div class="p-3">
     <img src="assets/img/unnamed.jpg" alt="John" width="25%" class="user">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h4 class="card-title mt-3"> – William Shakespeare</h4>
+    <h6 class="card-text mb-5">
+        ¨Our bodies are our gardens – our wills are our gardeners.¨
+    </h6>
 </div>
 
 <div class="p-3">
     <img src="assets/img/unnamed.jpg" alt="John" width="25%" class="user">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h4 class="card-title mt-3">- Vidal Sassoon</h4>
+    <h6 class="card-text mb-5">
+        “The only place where success comes before work is in the dictionary.”
+    </h6>
+</div>
+
+<div class="p-3">
+    <img src="assets/img/unnamed.jpg" alt="John" width="25%" class="user">
+    <h4 class="card-title mt-3"> – John F. Kennedy</h4>
+    <h6 class="card-text mb-5">
+        ¨Physical fitness is not only one of the most important keys to a healthy body, it is the basis of dynamic and creative intellectual activity.¨
+    </h6>
+</div>
+
+<div class="p-3">
+    <img src="assets/img/unnamed.jpg" alt="John" width="25%" class="user">
+    <h4 class="card-title mt-3"> – Mike Ditka</h4>
+    <h6 class="card-text mb-5">
+     ¨Here’s what I tell anybody and this is what I believe. The greatest gift we have is the gift of life. <br> We understand that. That comes from our Creator. We’re given a body. Now you may not like it, but you can maximize that body the best it can be maximized.¨
+    </h6>
 </div>
 
 </div>

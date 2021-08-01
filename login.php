@@ -3,10 +3,18 @@
 <link rel="stylesheet" href="assets/css/user-forms.css">
 <link rel="icon" href="assets/img/mainlogo.png">
 
-<body class="login">
 <?php include_once('db/login_db.php') ?>
 <body class="body" style="overflow: hidden;">
-        
+<script>
+        function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+        }
+</script>
 <div class="container logincon">
 <div class="row">
 
@@ -31,14 +39,16 @@
         </div>
         <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
         <label for="exampleInputPassword1">Password</label>
-        <input name="password" type="password" class="form-control" placeholder="Password">
+        <input name="password" type="password" class="form-control" placeholder="Password" id="myInput">
         <span class="help-block text-danger"><?php echo $password_err; ?></span>
         </div>
+        <input type="checkbox" onclick="myFunction()"> Show Password
+        <br><br>
         <div class="form-group" align="center">
         <input type="submit" class="btn" style="background-color: #EF7B45; color: white" value="Login">     
         <a href="index.php" class="btn btn-dark">Cancel</a>
         </div>
-        <p>Don't have an account? <a href="signup.php">Sign up now</a>.</p>
+        <p align="center">Don't have an account? <a href="signup.php" style="text-decoration: none;">Sign up now</a>.</p>
         </form>
 
         </div>

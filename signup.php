@@ -9,6 +9,16 @@ require_once "db/signup_db.php";
 ?>
 
 <body class="signup" style="overflow: hidden;">
+<script>
+    function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+    }
+</script>
     <div class="container signupcon">
         <div class="row">
 
@@ -35,13 +45,13 @@ require_once "db/signup_db.php";
 
             <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
             <label for="exampleInputPassword1">Password</label>
-            <input name="password" type="password" class="form-control" placeholder="Password" value="<?php echo $password; ?>">
-            <span class="help-block text-danger"><?php echo $password_err; ?></span>  
+            <input name="password" type="password" class="form-control" placeholder="Password" value="<?php echo $password; ?>" id="myInput">
+            <span class="help-block text-danger"><?php echo $password_err;?></span>  
             </div>
 
             <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
             <label>Confirm Password</label>
-            <input type="password" name="confirm_password" class="form-control" placeholder="Confirm Password" value="<?php echo $confirm_password; ?>">
+            <input type="password" name="confirm_password" class="form-control" placeholder="Confirm Password" value="<?php echo $confirm_password; ?>" id="myInput">
             <span class="help-block text-danger"><?php echo $confirm_password_err; ?></span>
             </div>
 
@@ -49,11 +59,12 @@ require_once "db/signup_db.php";
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me to receive email notifications</label>
             </div>
-            <div class="form-group mt-3" align="center">
+            
+            <div class="form-group mt-4" align="center">
                         <input type="submit" class="btn" style="background-color: #EF7B45; color: white" value="Submit">
                         <a href="index.php" class="btn btn-dark">Cancel</a>
             </div>
-            <p>Already have an account? <a href="login.php">Login here</a>.</p>
+            <p align="center">Already have an account? <a href="login.php" style="text-decoration: none;">Login here</a>.</p>
             </form>
             </div>
             </div>

@@ -16,6 +16,10 @@ form{
 .viewlogBtn{
     padding: 0 1.4rem 0 1.4rem;
 }
+
+.table{
+    max-width: none;
+}
  
 @media only screen and (min-width: 300px) and (max-width: 375px) {
     .logbtn{
@@ -24,5 +28,17 @@ form{
      
     .viewlogBtn{
         padding: 0 .5rem 0 .5rem;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1240px) {
+    .table{
+        padding-left: 12rem;
+    }
+}
+
+@media only screen and (min-width:1240px) and (max-width: 1440px) {
+    .table{
+        padding-left: 18rem;
     }
 }

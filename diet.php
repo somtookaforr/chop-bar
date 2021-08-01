@@ -26,24 +26,37 @@
             <div class="col">
             <div class="card">
         <div class="card-body dietone">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title" style="color: #EF7B45;">Intermittent Fasting</h5>
+        <p class="card-text">
+            Intermittent fasting is a dietary strategy that cycles between periods of fasting and eating.
+            Various forms exist, including the 16/8 method, which involves limiting your calorie intake to 8 hours per day, and the 5:2 method, which restricts your daily calorie intake to 500–600 calories twice per week. <br>
+            <b style="color: #EF7B45">How it works:</b> Intermittent fasting restricts the time you’re allowed to eat, which is a simple way to reduce your calorie intake. This can lead to weight loss.
+        </p>
         </div>
         </div>
             </div>
             <div class="col">
             <div class="card">
         <div class="card-body diettwo">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title" style="color: #EF7B45;">Low-fat diet</h5>
+        <p class="card-text">
+            Like low-carb diets, low-fat diets have been popular for decades.
+            In general, a low-fat diet involves restricting your fat intake to 30% of your daily calories.
+            Some very- and ultra-low-fat diets aim to limit fat consumption to under 10% of calories.<br>
+            <b style="color: #EF7B45">How it works:</b> Low-fat diets restrict fat intake because fat provides about twice the number of calories per gram, compared with the other two macronutrients — protein and carbs.
+        </p>
         </div>
         </div>
             </div>
             <div class="col">
             <div class="card">
         <div class="card-body dietthree">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title" style="color: #EF7B45;">Plant-based diets</h5>
+        <p class="card-text text-secondary">
+            Plant-based diets may help you lose weight. Vegetarianism and veganism are the most popular versions, which restrict animal products for health, ethical, and environmental reasons.
+            However, more flexible plant-based diets also exist, such as the flexitarian diet, which is a plant-based diet that allows eating animal products in moderation. <br>
+            <b style="color: #EF7B45">How it works:</b> There are many types of vegetarianism, but most involve eliminating all meat, poultry, and fish. Some vegetarians may likewise avoid eggs and dairy.
+        </p>
         </div>
         </div>
             </div>

@@ -3,3 +3,19 @@ body{
  }
 
 .footbtn{padding-bottom: 2rem;}
+
+.table{
+    max-width: none;
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1240px) {
+.table{
+    padding-left: 4rem;
+}
+}
+
+@media only screen and (min-width:1240px) and (max-width: 1440px) {
+    .table{
+        padding-left: 10rem;
+    }
+}

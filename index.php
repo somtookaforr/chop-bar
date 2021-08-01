@@ -5,21 +5,13 @@
 <link rel="icon" href="assets/img/mainlogo.png">
 <title>Chop Bar</title>
 
-    <?php
-    include_once('includes/indexNavbar.php');
-    ?>
+<?php include_once('includes/indexNavbar.php');?>
 
 <body style="overflow-x: hidden">    
     <div class="row maincarousel">
         <div class="col-2">
-            <i class="fa fa-user footericon fa-2x"></i>
+            <a href="user.php"><i class="fa fa-user footericon fa-2x"></i></a> 
             <br>
-               <!-- <b class="mt-1 card text-light bg-dark" style="margin-left: 1rem; margin-right: 3rem">
-               <?php
-                if(isset($_SESSION["loggedin"])){
-                echo htmlspecialchars($_SESSION["username"]);
-                }
-                ?> </b>  -->
             <div class="bodyicons">
             <a href="https://twitter.com/Okafor__Somto" target="_blank"><i class="fab fa-twitter-square bodyicon fa-2x"></i></a>
             <a href="https://www.linkedin.com/in/somtochukwu-okafor-3b04561a6/" target="_blank"><i class="fab fa-linkedin bodyicon fa-2x"></i></a>
