@@ -1,0 +1,46 @@
+body{
+   background-color: whitesmoke;
+}
+
+div.card{
+    color: white;
+}
+
+.dietone{
+   background-image: url("../img/jannis-brandt-mmsQUgMLqUo-unsplash.jpg");
+   background-size: 190%;
+}
+
+.diettwo{
+    background-image: url("../img/jesper-aggergaard-j6cMbjtCgvE-unsplash.jpg");
+    background-size: 130%;
+}
+
+.dietthree{
+    background-image: url("../img/photo-1490818387583-1baba5e638af.jpg");
+    background-size: 190%;
+}
+
+.container .card{
+    width: 21rem; height: 25rem;
+ }
+
+@media only screen and (max-width: 380px) {
+    .p-2{margin-left: .3rem;}
+ }
+
+ @media only screen and (min-width:380px) and (max-width: 430px) {
+    .p-2{margin-left: 3rem;}
+ }
+
+ @media only screen and (min-width:430px) and (max-width: 768px) {
+    .p-2{margin-left: 12rem;}
+    .footer{margin-right: 0rem;}
+ }
+
+ @media only screen and (min-width:768px) and (max-width: 1024px) {
+    .p-2{margin-left: 1rem;}
+    .container .card{width: 17rem;height: 26rem;}
+    .container .row{margin-left: 3rem;}
+    .footer{margin-top: 3rem; margin-right: -7rem;}  
+ }

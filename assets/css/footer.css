@@ -1,0 +1,11 @@
+section.footer{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    margin-top: 6rem;
+}
+.col{
+    margin-top: 2rem; 
+}
+.fa{color: ef7b45;}
+.foothead{margin-bottom: 1rem;}

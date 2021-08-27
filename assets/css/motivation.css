@@ -1,0 +1,25 @@
+body{
+  background-color: whitesmoke;
+}
+
+.divcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 74rem;
+    margin: auto;
+    text-align: center;
+  }
+  
+.usercard{
+    max-width: 14rem;
+    margin: auto;
+    text-align: center;
+    max-height: 20rem;
+}
+
+ .user{
+    border-radius: 100%;
+ } 
+ 
+  
+  
+

@@ -1,0 +1,24 @@
+/* ul.navbar-nav{padding-top: 1rem;} */
+.navbar{
+    background-color: black;
+}
+
+ul{margin-left: 5rem;}
+
+li.signins{padding-left: 6rem;}
+
+li.nav-item{padding-left: 2.5rem; font-size: 20px;}
+
+.shopbtn{
+    width: 120px;
+    background: rgba(69, 155, 255, 0.2);
+    border-radius: 20px;
+}
+
+.navlogo{color: ef7b45;}
+
+.underlogo{margin-top: -1.5rem;}
+
+.logo{padding-top: .5rem;}
+
+.navbar-brand{padding-left: 2rem;}
