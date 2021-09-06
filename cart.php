@@ -63,7 +63,7 @@
 
     <div class="footbtn" align="center">
     <a href="shop.php" class="btn btn-dark">Continue Shopping</a>
-    <a href="checkout.html" class="btn" style="background-color: #EF7B45; color: white">Proceed To Checkout</a>
+    <a href="checkout.php" class="btn" style="background-color: #EF7B45; color: white">Proceed To Checkout</a>
     </div>
 </div>
 

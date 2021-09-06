@@ -76,7 +76,7 @@ include_once("db/product_db.php");
 
           The hoodie is made of thick, soft and comfortable hood material and is meant for both male and female.
 
-          Please check our store out for more colours, designs and options at www.jumia.com.ng/danami
+          Please check our store out for more colours, designs and options.
           Thank you.</p>
       </div> 
     </div>

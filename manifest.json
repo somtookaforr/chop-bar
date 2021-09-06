@@ -1,0 +1,21 @@
+{
+    "name": "Chopbar",
+    "short_name": "Chopbar",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000000",
+    "description": "A fitness blog, log and e-commerce site",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "assets/favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/favicon/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+  }
