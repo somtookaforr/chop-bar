@@ -1,7 +1,0 @@
-<style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
-    </style>
-
-
-    <?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?> IT can be used in place of form action =index.php
