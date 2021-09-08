@@ -23,8 +23,6 @@ const appShellFiles = [
   './',
   './index.php',
   './assets/css/index.css',
-  './includes/indexNavbar.php',
-  './assets/css/navbar.css',
   './includes/footer.php',
   './assets/css/footer.css',
   './assets/img/mainlogoo.png',

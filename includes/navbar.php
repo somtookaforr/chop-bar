@@ -60,11 +60,11 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
       </li>  
       <li class="signins">
       <li class="nav-item">
-        <!-- <?php
+        <?php
         session_start();
         if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         echo '<li><a href="logout.php" class="nav-link btn btn-warning shopbtn" style="color: white">Log Out</a></li>';
-        }?>        -->
+        }?>        
       </li>
       <li class="nav-item">
         <?php  
