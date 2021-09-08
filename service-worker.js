@@ -20,22 +20,14 @@ self.addEventListener('install', (e) => {
 
 const cacheName = 'Chopbar-v1';
 const appShellFiles = [
-  './',
-  './index.php',
-  './assets/css/index.css',
-  './includes/footer.php',
-  './assets/css/footer.css',
-  './assets/img/mainlogoo.png',
-  './assets/img/M4E7X3z80PQ.png',
-  './assets/img/M4E7X3z80PQ (2).png',
-  './assets/img/M4E7X3z80PQ (3).png'
+  './index.php'
 ];
 
 self.addEventListener('install', (e) => {
     console.log('[Service Worker] Install');
     e.waitUntil((async () => {
       const cache = await caches.open(cacheName);
-      console.log('[Service Worker] Caching all: app shell and content');
+      console.log('[Service Worker] Caching all: app shell');
       await cache.addAll(appShellFiles);
     })());
   });
