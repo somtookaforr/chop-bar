@@ -41,6 +41,7 @@ self.addEventListener('install', (e) => {
     })());
   });
 
+  // AUTO FETCH AND CACHE
   // self.addEventListener('fetch', (e) => {
   //   e.respondWith((async () => {
   //     const r = await caches.match(e.request);
