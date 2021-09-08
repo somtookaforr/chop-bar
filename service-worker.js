@@ -32,6 +32,7 @@ const appShellFiles = [
   './assets/img/M4E7X3z80PQ (2).png',
   './assets/img/M4E7X3z80PQ (3).png'
 ];
+// 
 
 self.addEventListener('install', (e) => {
     console.log('[Service Worker] Install');
