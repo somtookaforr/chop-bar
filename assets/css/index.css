@@ -1,13 +1,14 @@
 body{
-   color: white;
-   background-image: linear-gradient(black, white);
+   color: black;
+   /* background-image: linear-gradient(black, white); */
+   background-color: #F5F5F5;
 }
 
 .bodyicons{margin-top: 4rem; margin-left: -6rem;}
 
-.bodyicons a{color: white;}
+.bodyicons a{color: black;}
 
-.col-2 a{color: white;}
+.col-2 a{color: black;}
 
 .bodyicon{padding-left: 10rem; padding-top:1rem;}
 

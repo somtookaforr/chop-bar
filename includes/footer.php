@@ -10,7 +10,7 @@
               <i class="fa fa-info-circle"></i>
               <b>About</b>  
               </div>
-            <p>At ChopBar.com we are here to <br> guide you through your fitness <br> journey and avoid rookie mistakes.</p> 
+            <p>At ChopBar.com we are here to guide you through your fitness journey and avoid rookie mistakes.</p> 
             </div>
 
             <div class="col-4">
@@ -18,8 +18,8 @@
             <i class="fa fa-address-book"></i>
             <b>Contact</b>  
             </div>
-            <p class="text-light"><i>Phone: </i><b> 08108852949</b></p>
-            <p><i>E-mail: </i> <b> sommy.okafor@yahoo.com</b></p>
+            <p class="text-light"><i>Phone: </i><b class="text-light"> 08108852949</b></p>
+            <p><i>E-mail: </i><b> sommy.okafor@yahoo.com</b></p>
             </div>
 
             <div class="col-4">
@@ -32,7 +32,8 @@
             </div>
         </div>
     </div>
-    <p class="text-center">&#169; 2020. Website developed by <b style="color: #EF7B45">Somtochukwu Emmanuel Okafor. </b>All Rights Reserved</p><br>
+    <br>
+    <p class="text-center">&#169; 2021. Website developed by <b style="color: #EF7B45">Somtochukwu Emmanuel Okafor. </b>All Rights Reserved</p><br>
   </section>
 </center>
 

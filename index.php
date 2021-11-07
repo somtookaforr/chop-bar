@@ -5,7 +5,6 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/faviocn/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 <link rel="stylesheet" href="assets/css/index.css">
@@ -18,7 +17,7 @@
     };
 </script>
 
-<?php include_once('includes/indexNavbar.php');?>
+<?php include_once('includes/navbar.php');?>
 
 <body style="overflow-x: hidden">    
     <div class="row maincarousel">
@@ -46,7 +45,7 @@
                             <p style="color: ef7b45" class="outerp">DIET PLANS </p> 
                             <p class="innerp">JUST FOR YOU</p></div>
                             <p class="smallp">Get started on your fitness journey</p>
-                            <a href="workout.php" class="btn btn-light carouselbtn">Lets Go!</a>
+                            <a href="workout.php" class="btn btn-secondary carouselbtn">Lets Go!</a>
                         <div class="col-5 imgbody">
                             <img src="assets/img/M4E7X3z80PQ.png" alt="" height="380px" width="480px">
                         </div>
@@ -59,7 +58,7 @@
                         <p class="innerp">PLANS FOR YOU</p>
                     </div>
                         <p class="smallp">Get started on your fitness journey</p>
-                        <a href="workout.php" class="btn btn-light carouselbtn">Lets Go!</a>
+                        <a href="workout.php" class="btn btn-secondary carouselbtn">Lets Go!</a>
                     <div class="col-5 imgbody">
                         <img src="assets/img/M4E7X3z80PQ (2).png" alt="" height="380px" width="480px">
                     </div>
@@ -71,7 +70,7 @@
                         <p class="innerp">JUST FOR YOU</p>
                     </div>
                         <p class="smallp">Get started on your fitness journey</p>
-                        <a href="workout.php" class="btn btn-light carouselbtn">Lets Go!</a>
+                        <a href="workout.php" class="btn btn-secondary carouselbtn">Lets Go!</a>
                     <div class="col-5 imgbody">
                         <img src="assets/img/M4E7X3z80PQ (3).png" alt="" height="380px" width="480px">
                     </div>

@@ -8,6 +8,7 @@ server with default setting (user 'root' with no password) */
 // define('DB_PASSWORD', '');
 // define('DB_NAME', 'fitness');
 
+// RUNNING SERVER LIVE
 define('DB_SERVER', 'us-cdbr-east-02.cleardb.com');
 define('DB_USERNAME', 'bbb03609868fec');
 define('DB_PASSWORD', 'f0c1c2a9');

@@ -1,7 +1,8 @@
 section.footer{
     background-color: black;
+    text-align: left;
     color: white;
-    font-size: 14px;
+    font-size: 11px;
     margin-top: 6rem;
 }
 .col{

@@ -8,13 +8,6 @@ body{
     background-color: whitesmoke;
 }
 
-.carousel-indicators li {
-    width: 50px;
-    height: 50px;
-    border-radius: 0%;
-    background-image: url("../img/weights.jpg");
-    background-size: 150%;
-}
 
 button a{
     text-decoration: none;

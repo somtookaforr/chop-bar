@@ -42,7 +42,9 @@ if(isset($_POST["submit"]))
 		
     if($check)
     {
-        header("location: cart.php");
+        // header("location: cart.php");
+        header("location: carter.php");
+
         echo '<script type="text/javascript"> alert("Data Inserted Successfully!"); </script>';  // alert message
       
     }

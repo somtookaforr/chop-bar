@@ -1,6 +1,7 @@
 <body>
 <link rel="stylesheet" href="assets/css/navbar.css">
 <?php
+session_start();
 $activePage = basename($_SERVER['PHP_SELF'], ".php");
 ?>
 
@@ -49,11 +50,15 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
             <!-- Counting rows in DB -->
               <?php 
             include_once('db/config.php');
-            if($records = mysqli_query($link,"SELECT * FROM cart"))
-            {
-                $rowcount = mysqli_num_rows($records);
-                printf("%d",$rowcount);
-            }
+            // if($records = mysqli_query($link,"SELECT * FROM cart"))
+            // {
+            //     $rowcount = mysqli_num_rows($records);
+            //     printf("%d",$rowcount);
+            // }
+            if(!empty($_SESSION["shopping_cart"])) {
+              $cart_count = count(array_keys($_SESSION["shopping_cart"]));
+               echo $cart_count; 
+              }  
               ?>
           </span>
         </h4>
@@ -61,7 +66,6 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
       <li class="signins">
       <li class="nav-item">
         <?php
-        session_start();
         if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         echo '<li><a href="logout.php" class="nav-link btn btn-warning shopbtn" style="color: white">Log Out</a></li>';
         }?>        

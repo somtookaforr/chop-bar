@@ -4,8 +4,29 @@ body{
 
 .card{
     width: 15rem; height: 14.7rem;
-    background-image: url("../img/weights.jpg");
+    background-color: whitesmoke;
+    border: none;
+}
+
+.card_one{
+    background-image: url("../img/gymrack.png");
+    background-size: 110%;
+}
+
+.card_two{
+    background-image: url("../img/whey.png");
+    background-size: 98%;
+}
+
+.card_three{ 
+    background-image: url("../img/fitbit.png");
     background-size: 150%;
+    background-position: -4rem;
+}
+
+.card_four{
+    background-image: url("../img/glove.png");
+    background-size: 100%;
 }
 
 ul .nav-item{

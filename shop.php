@@ -17,127 +17,44 @@
 <div class="container padding mt-5" style="margin-bottom: -3rem">
     <div class="row shoprow">
     <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
+    <a href="product1.php">
+    <div class="card card_one" >
     <div class="card-body five">
-     <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
+     <i class="fa fa-shopping-bag bag-icon" aria-hidden="true"></i>
     </div>
-    <div class="p-2 padding"> <b>Crystal Lamp</b> <p class="price d-flex align-items-center">₦90,000</p></div>
     </div></a>
+    <div class="p-2 padding text-dark"> <b>Gym Rack</b> <p class="price d-flex align-items-center">₦120,000</p></div>
     </div>
 
     <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
+    <a href="product2.php">
+    <div class="card card_two" >
     <div class="card-body six">
-     <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
+     <i class="fa fa-shopping-bag bag-icon" aria-hidden="true"></i>
     </div>
-    <div class="p-2 padding"> <b>Senator Bed</b> <p class="price d-flex align-items-center">₦350,000</p></div>
     </div></a>
+    <div class="p-2 padding text-dark"> <b>Cross Whey Protein</b> <p class="price d-flex align-items-center">₦25,000</p></div>
     </div>
 
     <div class="col-3">
-    <a href="products.php">
-        <div class="card" >
+    <a href="product3.php">
+        <div class="card card_three" >
     <div class="card-body seven">
-     <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
+     <i class="fa fa-shopping-bag bag-icon" aria-hidden="true"></i>
     </div>
-    <div class="p-2 padding"> <b>White Lamp</b> <p class="price d-flex align-items-center">₦90,000</p></div>
     </div></a>
+    <div class="p-2 padding text-dark"> <b>Fitbit Inspire 2</b> <p class="price d-flex align-items-center">₦40,000</p></div>
     </div>
 
     <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
+    <a href="product4.php">
+    <div class="card card_four" >
     <div class="card-body twelve">
-      <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
+      <i class="fa fa-shopping-bag bag-icon" aria-hidden="true"></i>
     </div>
-    <div class="p-2 padding"><b>Book Cases</b> <p class="price d-flex align-items-center">₦190,000</p></div>
     </div></a>
+    <div class="p-2 padding text-dark"><b>Gym Gloves</b> <p class="price d-flex align-items-center">₦10,000</p></div>
     </div>
-<div class="w-100"></div>
-        <br><br><br>
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body eight">
-      <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2 padding"> <b>Parlour Chair</b> <p class="price d-flex align-items-center">₦50,000</p></div>
-    </div></a>
-    </div>
-
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body nine">
-     <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2 padding"> <b>Deluxe Bed</b> <p class="price d-flex align-items-center">₦550,000</p></div>
-    </div></a>
-    </div>
-
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body ten">
-     <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2 padding"> <b>Blue Chair</b> <p class="price d-flex align-items-center">₦50,000</p></div>
-    </div></a>
-    </div>
-
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body thirteen">
-      <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2 padding"><b>Bed</b> <p class="price d-flex align-items-center">₦400,000</p></div>
-    </div></a>
-    </div>
-<div class="w-100"></div>
-    <br><br><br>
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body five">
-    <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2 padding"> <b>Crystal Lamp</b> <p class="price d-flex align-items-center">₦90,000</p></div>
-    </div></a>
-    </div>
-
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body six">
-    <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2 padding"> <b>Senator Bed</b> <p class="price d-flex align-items-center">₦350,000</p></div>
-    </div></a>
-    </div>
-
-    <div class="col-3">
-    <a href="products.php">
-      <div class="card" >
-    <div class="card-body seven">
-    <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2 padding"> <b>White Lamp</b> <p class="price d-flex align-items-center">₦90,000</p></div>
-    </div></a>
-    </div>
-
-    <div class="col-3">
-    <a href="products.php">
-    <div class="card" >
-    <div class="card-body fourteen">
-    <i class="fa fa-shopping-bag fa-2x bag-icon" aria-hidden="true"></i>
-    </div>
-    <div class="p-2 padding"><b>Wire Frame Decor</b> <p class="price d-flex align-items-center">₦80,000</p></div>
-    </div></a>
-    </div>
-
   </div></div>
 
 <br>
