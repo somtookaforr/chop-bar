@@ -79,10 +79,10 @@
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me to receive email notifications</label>
-            </div>
+            </div> <br>
             <div align="center" class="p-2">          
-            <a href="shop.php" class="btn btn-dark">Back To Shoping</a>
-            <input type="submit" value="Continue to checkout" class="btn" style="background-color: #EF7B45; color: white">
+            <a href="shop.php" class="btn btn-dark">Back To Shopping</a>
+            <input type="submit" value="Pay now" class="btn" style="background-color: #EF7B45; color: white">
           </div>
           </form>
 

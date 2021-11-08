@@ -105,6 +105,9 @@ $total_price += ($product["price"]*$product["quantity"]);
 <strong>TOTAL: <?php echo "₦".$total_price; ?></strong>
 </div>
 
+<div>
+  <a class="btn" style='background-color: #EF7B45; color: white' href="checkout.php">Checkout</a>
+</div>
   <?php
 }else{
 	echo

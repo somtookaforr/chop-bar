@@ -7,6 +7,12 @@
 
 <?php
 include_once('includes/navbar.php');
+include_once('includes/navbar.php');        
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?> 
 ?>
 
 <?php

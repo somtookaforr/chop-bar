@@ -54,8 +54,6 @@
     <div class="p-2 padding text-dark"><b>Gym Gloves</b> <p class="price d-flex align-items-center">₦10,000</p></div>
     </div>
   </div></div>
-
-<br>
 </body>
 
 <?php

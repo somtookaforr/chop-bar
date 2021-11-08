@@ -80,6 +80,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 echo "Something went wrong. Please try again later.";
             }else {
                 echo "Success";
+                session_start();
+                            
+                            // Store data in session variables
+                            $_SESSION["loggedin"] = true;
+                            $_SESSION["id"] = $id;
+                            $_SESSION["username"] = $username;
                 header("location: index.php");
             }
                
