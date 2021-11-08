@@ -19,7 +19,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item <?= ($activePage == 'index') ? 'active':''; ?>">
         <a class="nav-link" href="index.php">Home</a>
       </li>
@@ -83,7 +83,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
         }?>       
       </li>
       </li>
-      </ul>
+    </ul>
   </div>
 </nav>
 </body>
