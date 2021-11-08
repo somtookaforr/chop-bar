@@ -1,3 +1,4 @@
+<meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 <link rel="stylesheet" href="assets/css/footer.css">
 
@@ -18,7 +19,7 @@
             <i class="fa fa-address-book"></i>
             <b>Contact</b>  
             </div>
-            <p class="text-light"><i>Phone: </i><b class="text-light"> 08108852949</b></p>
+            <p class="text-light"><i>Phone: </i><b> 08108852949</b></p>
             <p><i>E-mail: </i><b> sommy.okafor@yahoo.com</b></p>
             </div>
 

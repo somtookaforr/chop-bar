@@ -4,10 +4,7 @@ body{
 
 .logo{padding-top: .5rem;}
 
-.card{
-    background-color: whitesmoke;
-}
-
+.card{ background-color: whitesmoke; }
 
 button a{
     text-decoration: none;
@@ -29,10 +26,10 @@ button a{
 }
 
 
-@media only screen and (min-width:500px) {
-    div.prod_container{ width: 60%;}
+@media only screen and (max-width:425px) {
+    div.prod_container{ width: 100%;}
  }
 
- @media only screen and (max-width:425px) {
-    div.prod_container{ width: 100%;}
+@media only screen and (min-width:500px) {
+    div.prod_container{ width: 60%;}
  }

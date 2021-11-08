@@ -4,19 +4,17 @@
 <link rel="icon" href="assets/img/mainlogo.png">
 
 <?php
-    include_once('includes/navbar.php');
-        
+    include_once('includes/navbar.php');        
     if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         header("location: login.php");
         exit;
     }
     ?> 
-
 <body>
 
 <div class="container padding mt-5" style="margin-bottom: -3rem">
     <div class="row shoprow">
-    <div class="col-lg-3 col-md-6 col-sm-12">
+    <div class="col-lg-3 col-sm-6 col-6">
     <a href="product1.php">
     <div class="card card_one" >
     <div class="card-body five">
@@ -26,7 +24,7 @@
     <div class="p-2 padding text-dark"> <b>Barbell Rack</b> <p class="price d-flex align-items-center">₦120,000</p></div>
     </div>
 
-    <div class="col-lg-3 col-md-6 col-sm-12">
+    <div class="col-lg-3 col-sm-6 col-6">
     <a href="product2.php">
     <div class="card card_two" >
     <div class="card-body six">
@@ -36,7 +34,7 @@
     <div class="p-2 padding text-dark"> <b>Cross Whey Protein</b> <p class="price d-flex align-items-center">₦25,000</p></div>
     </div>
 
-    <div class="col-lg-3 col-md-6 col-sm-12">
+    <div class="col-lg-3 col-sm-6 col-6">
     <a href="product3.php">
         <div class="card card_three" >
     <div class="card-body seven">
@@ -46,7 +44,7 @@
     <div class="p-2 padding text-dark"> <b>Fitbit Inspire 2</b> <p class="price d-flex align-items-center">₦40,000</p></div>
     </div>
 
-    <div class="col-lg-3 col-md-6 col-sm-12">
+    <div class="col-lg-3 col-sm-6 col-6">
     <a href="product4.php">
     <div class="card card_four" >
     <div class="card-body twelve">

@@ -31,22 +31,24 @@ include_once('includes/navbar.php');
 
       if(empty($_SESSION["shopping_cart"])) {
         $_SESSION["shopping_cart"] = $cartArray;
-        $status = "<div class='box'>Product is added to your cart!</div>";
+        $status = "<div class='alert alert-success' role='alert' style='text-align: center;'>Product is added to your cart!</div>";
       }else{
         $array_keys = array_keys($_SESSION["shopping_cart"]);
         if(in_array($code,$array_keys)) {
-          $status = "<div class='box' style='color:red;'>
+          $status = "<div class='alert alert-danger' role='alert' style='text-align: center;'>
           Product is already added to your cart!</div>";	
         } else {
         $_SESSION["shopping_cart"] = array_merge($_SESSION["shopping_cart"],$cartArray);
-        $status = "<div class='box'>Product is added to your cart!</div>";
+        $status = "<div class='alert alert-success' role='alert' style='text-align: center;'>Product is added to your cart!</div>";
         }
-
         }
       }
 ?>
 
 <body style="overflow-x: hidden">
+<div class="message_box" style="margin:10px 0px;">
+<?php echo $status; ?>
+</div>
 <div class="container">
   <center>
     <div class="prod_container">
@@ -94,8 +96,8 @@ include_once('includes/navbar.php');
           <form method='post' action=''>
           <input type='hidden' name='code' value=".$row['code']." />
           <div class='image' style='display: none;'><img src='".$row['image']."' /></div>
-          <div class='name' style='display: none;>".$row['name']."</div>
-            <div class='price'>$".$row['price']."</div>
+          <div class='name' style='display: none;'>".$row['name']."</div>
+            <div class='price' style='display: none;'>$".$row['price']."</div>
             <a href='shop.php' class='btn btn-dark'>GO BACK</a>
             <input type='submit' class='btn' name='submit' style='background-color: #EF7B45; color: white' value='ADD TO CART'>
             </form>
@@ -137,7 +139,6 @@ include_once('includes/navbar.php');
 </script>
 </body>
 <?php include_once('includes/footer.php'); ?>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

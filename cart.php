@@ -109,19 +109,12 @@ $total_price += ($product["price"]*$product["quantity"]);
 }else{
 	echo
     "<center>
-      <div class='bg-danger mt-5 text-light' style='width: 50%; height: 20%;'>
-      <h3 class='pt-5'>Your cart is empty!</h3>
+      <div class='bg-danger mt-5 text-light' style='width: 30%; height: 18%;'>
+      <h3 style='font-size: 18px; padding-top: 3rem'>Your cart is empty!</h3>
       </div>
     </center>";
 	}
 ?>
-</div>
-
-<div style="clear:both;"></div>
-
-<div class="message_box" style="margin:10px 0px;">
-<?php echo $status; ?>
-</div>
 </div>
 
 <?php include_once('includes/footer.php'); ?>
