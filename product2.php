@@ -49,7 +49,7 @@ include_once('includes/navbar.php');
 <body style="overflow-x: hidden">
 <div class="container">
   <center>
-    <div class="pt-4" style="width: 60%">
+    <div class="prod_container pt-4">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -109,11 +109,8 @@ include_once('includes/navbar.php');
       <div class="container">
         <h4>Details</h4>
         <hr>
-          <p>Rock this Throne Of Grace printed hoodie to represent your faith in God's grace.
-
-          The hoodie is made of thick, soft and comfortable hood material and is meant for both male and female.
-
-          Please check our store out for more colours, designs and options.
+        <p>The product is made of reliable material and is meant for both male and female.
+          Please check our store out for more colours, designs and options. <br>
           Thank you.</p>
       </div> 
     </div>

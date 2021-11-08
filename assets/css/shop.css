@@ -41,16 +41,28 @@ ul .nav-item{
 .bag-icon{color: ef7b45;}
 
 @media only screen and (max-width: 380px) {
-    .container .card{width: 4rem; height:9rem ;}
+    /* .container .card{width: 4rem; height:9rem ;} */
     div .padding{font-size: x-small;}
+    .container.padding.mt-5{padding-left: 3rem;}
+
+    .card{
+        width: 15rem; height: 12rem;
+    }
  }
 
- @media only screen and (min-width:380px) and (max-width: 430px) {
-    .container .card{width: 5rem; height:9rem ;}
+ @media only screen and (min-width:381px) and (max-width: 450px) {
+    /* .container .card{width: 5rem; height:9rem ;} */
     div .padding{font-size: x-small;}
+    .container.padding.mt-5{margin-left: 4rem;}
+
+    .card{
+        width: 15rem; height: 12rem;
+    }
  }
 
- @media only screen and (min-width:430px) and (max-width: 768px) {
-    .container .card{width: 10rem; height:10rem ;}
+ @media only screen and (min-width:451px) and (max-width: 768px) {
+    /* .container .card{width: 10rem; height:10rem ;} */
     div .padding{font-size: x-small;}
+    .container.padding.mt-5{margin-left: 6rem;}
+
  }
