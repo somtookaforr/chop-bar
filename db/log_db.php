@@ -1,20 +1,20 @@
 <?php
 require_once "db/config.php";
-require_once "db/sessionHandler_db.php";
 
 if(!mysqli_select_db($link,'fitness')){
     echo '';
 }
 
 $exercise = isset($_POST['exercise']) ? $_POST['exercise'] : '';
-$setss = isset($_POST['setss']) ? $_POST['setss'] : '';
+$weight = isset($_POST['weight']) ? $_POST['weight'] : '';
+$sets = isset($_POST['sets']) ? $_POST['sets'] : '';
 $reps = isset($_POST['reps']) ? $_POST['reps'] : '';
 
 
 if($_SERVER["REQUEST_METHOD"] == "POST")
 {     
     // executing insert query
-    $sql = mysqli_query($link,"INSERT INTO logs (exercise,setss,reps) VALUES ('$exercise','$setss','$reps')");
+    $sql = mysqli_query($link,"INSERT INTO logs (exercise,weight,sets,reps) VALUES ('$exercise','$weight','$sets','$reps')");
 		
     if($sql)
     {
@@ -28,8 +28,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     mysqli_close($link);
 }
 ?>
-
-
 <!-- <?php
     require_once "db/config.php";
     

@@ -23,8 +23,8 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
       <li class="nav-item <?= ($activePage == 'index') ? 'active':''; ?>">
         <a class="nav-link" href="index.php">Home</a>
       </li>
-      <li class="nav-item <?= ($activePage == 'log') ? 'active':''; ?>">
-        <a class="nav-link" href="log.php">Log</a>
+      <li class="nav-item <?= ($activePage == 'all_log') ? 'active':''; ?>">
+        <a class="nav-link" href="all_log.php">Logs</a>
       </li>
       <li class="nav-item <?= ($activePage == 'shop') ? 'active':''; ?>">
         <a class="nav-link" href="shop.php">Shop</a>

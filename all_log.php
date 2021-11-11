@@ -20,6 +20,7 @@
                 <tr>
                 <th scope='col'>#</th>
                 <th scope='col'>Exercise</th>
+                <th scope='col'>Weight</th>
                 <th scope='col'>Sets</th>
                 <th scope='col'>Reps</th>
                 <th scope='col'>Time</th>
@@ -35,7 +36,8 @@
                            echo "<tr>";
                            echo "<th scope='row'>".$data['id']."</th>";
                            echo "<td>".$data['exercise']."</td>";
-                           echo "<td>".$data['setss']."</td>";
+                           echo "<td>".$data['weight']."</td>";
+                           echo "<td>".$data['sets']."</td>";
                            echo "<td>".$data['reps']."</td>";
                            echo "<td><mark class='text-danger'>".$data['created_at']."</mark>
                            </td>";
@@ -45,6 +47,7 @@
             ?>
              </tbody>
             </table>
+            <a href="log.php" class="viewlogBtn mt-3 py-2 mx-1 btn btn-dark border">Add new entry</a>
    </div>
 </body>
 <?php include_once('includes/footer.php'); ?>

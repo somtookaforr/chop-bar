@@ -1,7 +1,14 @@
+<html lang="en">  
+</html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/shop.css">
 <link rel="icon" href="assets/img/mainlogo.png">
+<title>Chop Bar | Shop</title>  
+</head>
 
 <?php
     include_once('includes/navbar.php');        
@@ -12,7 +19,7 @@
     ?> 
 <body>
 
-<div class="container padding mt-5" style="margin-bottom: -3rem">
+<div class="container" style="margin-top: 6rem; margin-bottom: -1rem">
     <div class="row shoprow">
     <div class="col-lg-3 col-sm-6 col-6">
     <a href="product1.php">

@@ -8,6 +8,7 @@
         include_once('includes/navbar.php');
         require_once('db/log_db.php');
 
+
     if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         header("location: login.php");
         exit;
@@ -20,7 +21,7 @@
             <h1 style="color: #EF7B45;">Welcome to Log</h1>
             <h4 class="my-4">Progress needs to measured to ascertain growth.</h4>
             <div class="tab">
-                <p>Select your focus group to see exercises</p>
+                <p>Select your exercise or workout</p>
 
                 <select name="exercise" required class="tab form-control">
                     <optgroup value="" label="Shoulders">
@@ -56,8 +57,10 @@
                     </optgroup>
                 </select>
 
+                <p class="mt-4">How much added weight? (kg)</p>
+                <input type="text" name="weight" required class="form-control">
                 <p class="mt-4">How many sets?</p>
-                <input type="number" name="setss" required class="form-control">
+                <input type="number" name="sets" required class="form-control">
                 <p class="mt-4">How many reps?</p>
                 <input type="number" name="reps" required class="form-control">
             </div>
