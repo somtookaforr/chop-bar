@@ -1,6 +1,5 @@
 body{
    color: black;
-   /* background-image: linear-gradient(black, white); */
    background-color: #F5F5F5;
 }
 
@@ -16,7 +15,7 @@ body{
 
 .col-5{margin-top: 5rem;margin-left: -1rem;}
 
-.bodytext{font-size: 60px;}
+.bodytext{font-size: 60px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 .carousel-inner{width: 100rem;}
 
