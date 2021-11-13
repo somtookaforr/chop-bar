@@ -20,11 +20,11 @@
                 <tr>
                 <th scope='col'>#</th>
                 <th scope='col'>Exercise</th>
-                <th scope='col'>Weight</th>
+                <th scope='col'>Weight(kg)</th>
                 <th scope='col'>Sets</th>
                 <th scope='col'>Reps</th>
                 <th scope='col'>Time</th>
-                <th scope='col'></th>
+                <th scope='col'>Action</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -47,7 +47,7 @@
             ?>
              </tbody>
             </table>
-            <a href="log.php" class="viewlogBtn mt-3 py-2 mx-1 btn btn-dark border">Add new entry</a>
+            <a class="btn border mt-3 py-2 mx-1" style='background-color: #EF7B45; color: white' href="log.php">Add new entry</a>
    </div>
 </body>
 <?php include_once('includes/footer.php'); ?>
